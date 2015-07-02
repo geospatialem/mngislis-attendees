@@ -154,6 +154,36 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 1,
+        "City": "Asheville",
+        "State": "NC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5514,
+          35.5950
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Aurora",
+        "State": "CO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8319,
+          39.7294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 17,
         "City": "Arden Hills",
         "State": "MN"
@@ -290,6 +320,21 @@
       "type": "Feature",
       "properties": {
         "NumSum": 1,
+        "City": "Bethesda",
+        "State": "MS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0947,
+          38.9846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
         "City": "Big Lake",
         "State": "MN"
       },
@@ -388,6 +433,21 @@
         "coordinates": [
           -116.2146,
           43.6187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 3,
+        "City": "Boston",
+        "State": "MA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0588,
+          42.3600
         ]
       }
     },
@@ -559,6 +619,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 12,
+        "City": "Centennial",
+        "State": "CO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8771,
+          39.5807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 5,
         "City": "Center City",
         "State": "MN"
@@ -613,6 +688,36 @@
         "coordinates": [
           -93.6022,
           44.7894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 3,
+        "City": "Chesterfield",
+        "State": "MO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5770,
+          38.6631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Chicago",
+        "State": "IL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6297,
+          41.8781
         ]
       }
     },
@@ -785,6 +890,21 @@
       "type": "Feature",
       "properties": {
         "NumSum": 2,
+        "City": "Denver",
+        "State": "CO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9902,
+          39.7392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
         "City": "Des Moines",
         "State": "IA"
       },
@@ -793,6 +913,21 @@
         "coordinates": [
           -93.6091,
           41.6005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Des Plaines",
+        "State": "IL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.8833,
+          42.0333
         ]
       }
     },
@@ -935,6 +1070,21 @@
       "type": "Feature",
       "properties": {
         "NumSum": 1,
+        "City": "Englewood",
+        "State": "CO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9877,
+          39.6477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
         "City": "Esko",
         "State": "MN"
       },
@@ -1024,6 +1174,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 1,
+        "City": "Fishers",
+        "State": "IN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.0133,
+          39.9567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 8,
         "City": "Foley",
         "State": "MN"
@@ -1093,6 +1258,21 @@
         "coordinates": [
           -94.2205,
           44.553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Glenburn",
+        "State": "ME"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.8457,
+          44.9168
         ]
       }
     },
@@ -1520,6 +1700,21 @@
       "type": "Feature",
       "properties": {
         "NumSum": 1,
+        "City": "Lucknow",
+        "State": "India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.9461,
+          26.8466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
         "City": "Lutsen",
         "State": "MN"
       },
@@ -1774,6 +1969,36 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 3,
+        "City": "Mississauga",
+        "State": "Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6441,
+          43.5890
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Montana City",
+        "State": "MT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9327,
+          46.5377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 2,
         "City": "Monticello",
         "State": "MN"
@@ -1895,6 +2120,21 @@
       "type": "Feature",
       "properties": {
         "NumSum": 1,
+        "City": "Niceville",
+        "State": "FL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4821,
+          30.5168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
         "City": "Norcross",
         "State": "GA"
       },
@@ -1993,6 +2233,21 @@
         "coordinates": [
           -92.9649,
           44.963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "O'Fallon",
+        "State": "MO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.6998,
+          38.8106
         ]
       }
     },
@@ -2284,6 +2539,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 1,
+        "City": "Rolla",
+        "State": "MO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.7715,
+          37.9485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 8,
         "City": "Rosemount",
         "State": "MN"
@@ -2479,6 +2749,36 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 4,
+        "City": "St. Charles",
+        "State": "IL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.3086,
+          41.9141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "St. Charles",
+        "State": "MO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.4974,
+          38.7881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 1,
         "City": "St. James",
         "State": "MN"
@@ -2488,6 +2788,21 @@
         "coordinates": [
           -94.6269,
           43.9825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "St. Louis",
+        "State": "MO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1994,
+          38.6270
         ]
       }
     },
@@ -2554,6 +2869,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 1,
+        "City": "Tampa",
+        "State": "FL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4571,
+          27.9505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 5,
         "City": "Thief River Falls",
         "State": "MN"
@@ -2614,6 +2944,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 1,
+        "City": "University Park",
+        "State": "MD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9419,
+          38.9703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 3,
         "City": "Vadnais Heights",
         "State": "MN"
@@ -2623,6 +2968,36 @@
         "coordinates": [
           -93.0738,
           45.0575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Vancouver",
+        "State": "Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1207,
+          49.2827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 6,
+        "City": "Victoria",
+        "State": "Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.3656,
+          48.4284
         ]
       }
     },
@@ -2750,6 +3125,21 @@
       "type": "Feature",
       "properties": {
         "NumSum": 1,
+        "City": "West Cleveland",
+        "State": "MS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.7248,
+          33.7440
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
         "City": "West Concord",
         "State": "MN"
       },
@@ -2848,6 +3238,21 @@
         "coordinates": [
           -95.0433,
           45.1219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Winnipeg",
+        "State": "Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1374,
+          49.8997
         ]
       }
     },
