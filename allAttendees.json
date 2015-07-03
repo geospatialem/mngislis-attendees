@@ -724,6 +724,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 1,
+        "City": "Cheyenne",
+        "State": "WY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8202,
+          41.1399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 2,
         "City": "Chicago",
         "State": "IL"
@@ -1183,6 +1198,21 @@
         "coordinates": [
           -93.2688,
           44.295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Farifax",
+        "State": "VA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3063,
+          38.8462
         ]
       }
     },
