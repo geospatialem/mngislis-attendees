@@ -49,21 +49,6 @@
     {
       "type": "Feature",
       "properties": {
-        "NumSum": 2,
-        "City": "Anchorage",
-        "State": "AK"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.9002,
-          61.218
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "NumSum": 4,
         "City": "Ames",
         "State": "IA"
@@ -73,6 +58,21 @@
         "coordinates": [
           -93.62,
           42.0347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Anchorage",
+        "State": "AK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9002,
+          61.218
         ]
       }
     },
@@ -154,6 +154,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 17,
+        "City": "Arden Hills",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.1566,
+          45.0502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 1,
         "City": "Asheville",
         "State": "NC"
@@ -184,15 +199,15 @@
     {
       "type": "Feature",
       "properties": {
-        "NumSum": 17,
-        "City": "Arden Hills",
-        "State": "MN"
+        "NumSum": 1,
+        "City": "Austin",
+        "State": "TX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -93.1566,
-          45.0502
+          -97.7430,
+          30.2671
         ]
       }
     },
@@ -499,6 +514,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 5,
+        "City": "Brookings",
+        "State": "SD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7983,
+          44.3113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 4,
         "City": "Brooklyn Center",
         "State": "MN"
@@ -755,6 +785,21 @@
       "type": "Feature",
       "properties": {
         "NumSum": 1,
+        "City": "Cincinnati",
+        "State": "OH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5120,
+          39.1031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
         "City": "Circle Pines",
         "State": "MN"
       },
@@ -763,6 +808,21 @@
         "coordinates": [
           -93.1516,
           45.1486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Cleveland",
+        "State": "OH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6943,
+          41.4993
         ]
       }
     },
@@ -898,6 +958,21 @@
         "coordinates": [
           -93.3602,
           45.0327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 9,
+        "City": "Dayton",
+        "State": "OH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1916,
+          39.7589
         ]
       }
     },
@@ -1309,6 +1384,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 1,
+        "City": "Fort Worth",
+        "State": "TX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3307,
+          32.7554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 4,
         "City": "Fridley",
         "State": "MN"
@@ -1444,6 +1534,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 2,
+        "City": "Harrisburg",
+        "State": "PA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8867,
+          40.2731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 6,
         "City": "Hastings",
         "State": "MN"
@@ -1513,6 +1618,21 @@
         "coordinates": [
           -93.4627,
           44.925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Houston",
+        "State": "TX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
         ]
       }
     },
@@ -1699,21 +1819,6 @@
     {
       "type": "Feature",
       "properties": {
-        "NumSum": 2,
-        "City": "Lebanon",
-        "State": "NH"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.2517,
-          43.6422
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "NumSum": 6,
         "City": "Le Center",
         "State": "MN"
@@ -1723,6 +1828,21 @@
         "coordinates": [
           -93.7302,
           44.3894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Lebanon",
+        "State": "NH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2517,
+          43.6422
         ]
       }
     },
@@ -2225,6 +2345,36 @@
       "type": "Feature",
       "properties": {
         "NumSum": 1,
+        "City": "Murfreesboro",
+        "State": "TN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.3902,
+          35.8456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Nashville",
+        "State": "TN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7816,
+          36.1626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
         "City": "New Brighton",
         "State": "MN"
       },
@@ -2465,7 +2615,7 @@
       "type": "Feature",
       "properties": {
         "NumSum": 3,
-        "City": "Pine island",
+        "City": "Pine Island",
         "State": "MN"
       },
       "geometry": {
@@ -2503,6 +2653,21 @@
         "coordinates": [
           -93.4555,
           45.0105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Plymouth Meeting",
+        "State": "PA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2743,
+          40.1023
         ]
       }
     },
@@ -2584,6 +2749,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 7,
+        "City": "Rapid City",
+        "State": "SD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.2310,
+          44.0805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 28,
         "City": "Red Wing",
         "State": "MN"
@@ -2629,7 +2809,7 @@
     {
       "type": "Feature",
       "properties": {
-        "NumSum": 6,
+        "NumSum": 7,
         "City": "Richfield",
         "State": "MN"
       },
@@ -2644,15 +2824,15 @@
     {
       "type": "Feature",
       "properties": {
-        "NumSum": 1,
-        "City": "Richfield",
-        "State": "MN"
+        "NumSum": 7,
+        "City": "Richmond",
+        "State": "TX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -93.283,
-          44.8833
+          -95.7607,
+          29.5821
         ]
       }
     },
@@ -2878,6 +3058,21 @@
         "coordinates": [
           -93.1472,
           45.0791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Sioux Falls",
+        "State": "SD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7311,
+          43.5445
         ]
       }
     },
@@ -3424,7 +3619,7 @@
     {
       "type": "Feature",
       "properties": {
-        "NumSum": 1,
+        "NumSum": 2,
         "City": "Willmar",
         "State": "MN"
       },
@@ -3440,14 +3635,14 @@
       "type": "Feature",
       "properties": {
         "NumSum": 1,
-        "City": "Wilmar",
-        "State": "MN"
+        "City": "Willoughby",
+        "State": "OH"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.0433,
-          45.1219
+          -81.4065,
+          41.6397
         ]
       }
     },
