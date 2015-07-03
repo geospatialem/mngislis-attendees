@@ -364,6 +364,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 6,
+        "City": "Bismarck",
+        "State": "ND"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.7837,
+          46.8083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 1,
         "City": "Blackduck",
         "State": "MN"
@@ -949,6 +964,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 2,
+        "City": "Dickinson",
+        "State": "ND"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.7896,
+          46.8791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 1,
         "City": "Dodge Center",
         "State": "MN"
@@ -1129,6 +1159,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 45,
+        "City": "Fargo",
+        "State": "ND"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7898,
+          46.8771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 22,
         "City": "Faribault",
         "State": "MN"
@@ -1303,6 +1348,21 @@
         "coordinates": [
           -93.3491,
           45.0097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 13,
+        "City": "Grand Forks",
+        "State": "ND"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0328,
+          47.9252
         ]
       }
     },
@@ -1609,6 +1669,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 2,
+        "City": "Lebanon",
+        "State": "NH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2517,
+          43.6422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 6,
         "City": "Le Center",
         "State": "MN"
@@ -1633,6 +1708,21 @@
         "coordinates": [
           -91.8693,
           43.9844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Lincoln",
+        "State": "NE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6851,
+          40.8257
         ]
       }
     },
@@ -1969,6 +2059,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 2,
+        "City": "Minot",
+        "State": "ND"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.2922,
+          48.2329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 3,
         "City": "Mississauga",
         "State": "Canada"
@@ -2113,6 +2218,21 @@
         "coordinates": [
           -94.4605,
           44.3125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "New York",
+        "State": "NY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0059,
+          40.7127
         ]
       }
     },
@@ -2524,6 +2644,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 9,
+        "City": "Rochester",
+        "State": "NY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.6109,
+          43.1610
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 1,
         "City": "Rockford",
         "State": "MN"
@@ -2638,6 +2773,21 @@
         "coordinates": [
           -93.0933,
           44.9444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Santa Fe",
+        "State": "NM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.9377,
+          35.6869
         ]
       }
     },
@@ -3049,6 +3199,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 4,
+        "City": "Wahpeton",
+        "State": "ND"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6059,
+          46.2652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 5,
         "City": "Waite Park",
         "State": "MN"
@@ -3148,6 +3313,21 @@
         "coordinates": [
           -92.8996,
           44.1536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 9,
+        "City": "West Fargo",
+        "State": "ND"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8999,
+          46.8769
         ]
       }
     },
