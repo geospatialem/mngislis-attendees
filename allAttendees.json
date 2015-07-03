@@ -154,6 +154,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 5,
+        "City": "Appleton",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4153,
+          44.2619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 17,
         "City": "Arden Hills",
         "State": "MN"
@@ -223,6 +238,21 @@
         "coordinates": [
           -95.3983,
           47.5216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Baraboo",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7442,
+          43.4710
         ]
       }
     },
@@ -785,6 +815,36 @@
       "type": "Feature",
       "properties": {
         "NumSum": 1,
+        "City": "Chilton",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6297,
+          41.8781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Chippewa Falls",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.3929,
+          44.9369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
         "City": "Cincinnati",
         "State": "OH"
       },
@@ -964,6 +1024,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 1,
+        "City": "Darlington",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1176,
+          42.6830
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 9,
         "City": "Dayton",
         "State": "OH"
@@ -1114,6 +1189,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 8,
+        "City": "Eau Claire",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.4984,
+          44.8113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 42,
         "City": "Eden Prairie",
         "State": "MN"
@@ -1153,6 +1243,21 @@
         "coordinates": [
           -93.5672,
           45.3039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Elkhart Lake",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0178,
+          43.8333
         ]
       }
     },
@@ -1213,6 +1318,21 @@
         "coordinates": [
           -92.3632,
           46.7058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Ettrick",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.2690,
+          44.1682
         ]
       }
     },
@@ -1609,6 +1729,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 2,
+        "City": "Holmen",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.2562,
+          43.9632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 7,
         "City": "Hopkins",
         "State": "MN"
@@ -1633,6 +1768,21 @@
         "coordinates": [
           -95.3698,
           29.7604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Hudson",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.7568,
+          44.9746
         ]
       }
     },
@@ -1798,6 +1948,21 @@
         "coordinates": [
           -94.2188,
           44.1058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Lake Nebagamon",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.6999,
+          46.5149
         ]
       }
     },
@@ -1999,6 +2164,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 31,
+        "City": "Madison",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4012,
+          43.0730
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 106,
         "City": "Mankato",
         "State": "MN"
@@ -2164,6 +2344,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 1,
+        "City": "Menomonie",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.9193,
+          44.8755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 2,
         "City": "Mentor",
         "State": "MN"
@@ -2173,6 +2368,21 @@
         "coordinates": [
           -96.1412,
           47.6983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Milwaukee",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9064,
+          43.0389
         ]
       }
     },
@@ -2233,6 +2443,21 @@
         "coordinates": [
           -79.6441,
           43.5890
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Monona",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3340,
+          43.0622
         ]
       }
     },
@@ -2368,6 +2593,21 @@
         "coordinates": [
           -86.7816,
           36.1626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Neillsville",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5962,
+          44.5599
         ]
       }
     },
@@ -2540,6 +2780,21 @@
       "type": "Feature",
       "properties": {
         "NumSum": 1,
+        "City": "Odanah",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.6968,
+          46.6082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
         "City": "O'Fallon",
         "State": "MO"
       },
@@ -2548,6 +2803,36 @@
         "coordinates": [
           -90.6998,
           38.8106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 3,
+        "City": "Onalaska",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.2351,
+          43.8844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Osceola",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.7049,
+          45.3205
         ]
       }
     },
@@ -2809,6 +3094,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 2,
+        "City": "Rice Lake",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.7382,
+          45.5060
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 7,
         "City": "Richfield",
         "State": "MN"
@@ -2833,6 +3133,21 @@
         "coordinates": [
           -95.7607,
           29.5821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 5,
+        "City": "River Falls",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.6238,
+          44.8613
         ]
       }
     },
@@ -3049,6 +3364,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 1,
+        "City": "Sheboygan",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7145,
+          43.7508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 6,
         "City": "Shoreview",
         "State": "MN"
@@ -3118,6 +3448,21 @@
         "coordinates": [
           -93.0349,
           44.8927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Sparta",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.8129,
+          43.9441
         ]
       }
     },
@@ -3215,6 +3560,21 @@
       "type": "Feature",
       "properties": {
         "NumSum": 1,
+        "City": "Stevens Point",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5745,
+          44.5235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
         "City": "Stewart",
         "State": "MN"
       },
@@ -3238,6 +3598,51 @@
         "coordinates": [
           -92.806,
           45.0564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 3,
+        "City": "Stoddard",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.2184,
+          43.6619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Sun Prairie",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2137,
+          43.1836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 14,
+        "City": "Superior",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1040,
+          46.7207
         ]
       }
     },
@@ -3643,6 +4048,21 @@
         "coordinates": [
           -81.4065,
           41.6397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Wilton",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5279,
+          43.8135
         ]
       }
     },
