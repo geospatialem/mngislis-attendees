@@ -1654,6 +1654,21 @@
     {
       "type": "Feature",
       "properties": {
+        "NumSum": 2,
+        "City": "Sauk Rapids",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1661,
+          45.5919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "NumSum": 1,
         "City": "Savage",
         "State": "MN"
