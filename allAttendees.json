@@ -3154,7 +3154,7 @@
     {
       "type": "Feature",
       "properties": {
-        "NumSum": 76,
+        "NumSum": 82,
         "City": "Rochester",
         "State": "MN"
       },
@@ -3169,7 +3169,7 @@
     {
       "type": "Feature",
       "properties": {
-        "NumSum": 9,
+        "NumSum": 3,
         "City": "Rochester",
         "State": "NY"
       },
