@@ -366,7 +366,7 @@
       "properties": {
         "NumSum": 1,
         "City": "Bethesda",
-        "State": "MS"
+        "State": "MD"
       },
       "geometry": {
         "type": "Point",
