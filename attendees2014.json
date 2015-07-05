@@ -1,0 +1,1610 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Aitkin",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.7102,
+          46.533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 3,
+        "City": "Alexandria",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3775,
+          45.8852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Anchorage",
+        "State": "AK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9002,
+          61.218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Anoka",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3872,
+          45.1977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Apple Valley",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2177,
+          44.7319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Asheville",
+        "State": "NC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5514,
+          35.5950
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Austin",
+        "State": "TX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7430,
+          30.2671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Bagley",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3983,
+          47.5216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Baxter",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2867,
+          46.3433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 4,
+        "City": "Bemidji",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8803,
+          47.4736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Blaine",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2349,
+          45.1608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 8,
+        "City": "Bloomington",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2983,
+          44.8408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 3,
+        "City": "Brainerd",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2008,
+          46.358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Brooklyn Park",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3563,
+          45.0941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 3,
+        "City": "Buffalo",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.8747,
+          45.1719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Burnsville",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2777,
+          44.7677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Cambridge",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2244,
+          45.5727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 3,
+        "City": "Carlton",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4249,
+          46.6638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Cass Lake",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.6041,
+          47.3794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 5,
+        "City": "Chaska",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.6022,
+          44.7894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 3,
+        "City": "Cloquet",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4594,
+          46.7216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Cologne",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.7814,
+          44.7716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Coon Rapids",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2877,
+          45.12
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Crookston",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6081,
+          47.7741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Detroit Lakes",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.8453,
+          46.8172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Dodge Center",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.8546,
+          44.028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 25,
+        "City": "Duluth",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1066,
+          46.7833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 7,
+        "City": "Eagan",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.1669,
+          44.8041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Eden Prairie",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.4708,
+          44.8547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Edina",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3499,
+          44.8897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Elk River",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.5672,
+          45.3039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Ely",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.8671,
+          47.9032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 5,
+        "City": "Fargo",
+        "State": "ND"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7898,
+          46.8771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Faribault",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2688,
+          44.295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 3,
+        "City": "Fergus Falls",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.0776,
+          46.283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Foley",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.9097,
+          45.6647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 3,
+        "City": "Fridley",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2633,
+          45.0861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Gaylord",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2205,
+          44.553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Glenwood",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3898,
+          45.6502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 8,
+        "City": "Golden Valley",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3491,
+          45.0097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Grand Forks",
+        "State": "ND"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0328,
+          47.9252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Grand Marais",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3343,
+          47.7504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 8,
+        "City": "Grand Rapids",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.5302,
+          47.2372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Hopkins",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.4627,
+          44.925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Hudson",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.7568,
+          44.9746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Hutchinson",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3697,
+          44.8877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Inver Grove Heights",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.0427,
+          44.848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Jackson",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.9886,
+          43.6208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Jordan",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.6269,
+          44.6669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Lake Crystal",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2188,
+          44.1058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 3,
+        "City": "Lakeville",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2427,
+          44.6497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Le Center",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.7302,
+          44.3894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Lewiston",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.8693,
+          43.9844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Lincoln",
+        "State": "NE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6851,
+          40.8257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Little Falls",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3625,
+          45.9764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Long Prairie",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8656,
+          45.9747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Lucknow",
+        "State": "India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.9461,
+          26.8466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 3,
+        "City": "Madison",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4012,
+          43.0730
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 18,
+        "City": "Mankato",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.9994,
+          44.1636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 5,
+        "City": "Maple Grove",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.4558,
+          45.0725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Maple Plain",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.6558,
+          45.0072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 4,
+        "City": "Marshall",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7884,
+          44.4469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Medina",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.5825,
+          45.0352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Menomonie",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.9193,
+          44.8755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 36,
+        "City": "Minneapolis",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2638,
+          44.98
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Montana City",
+        "State": "MT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9327,
+          46.5377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 4,
+        "City": "Moorhead",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7676,
+          46.8739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Moose Lake",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.7619,
+          46.4541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Morris",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9139,
+          45.5861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Mounds View",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2086,
+          45.105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Neillsville",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5962,
+          44.5599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "New Brighton",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2019,
+          45.0655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "New Ulm",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4605,
+          44.3125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "New York",
+        "State": "NY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0059,
+          40.7127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "North Mankato",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.0338,
+          44.1733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "North St Paul",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9919,
+          45.0125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Northfield",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.1616,
+          44.4583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Oakdale",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9649,
+          44.963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Owatonna",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.226,
+          44.0839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Park Rapids",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0586,
+          46.9222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Perham",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5725,
+          46.5944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Plummer",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.0417,
+          47.9114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Preston",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0832,
+          43.6702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 4,
+        "City": "Red Wing",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.5338,
+          44.5625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 10,
+        "City": "Rochester",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4699,
+          44.0216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Rosemount",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.1258,
+          44.7394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 13,
+        "City": "Roseville",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.1566,
+          45.0061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 3,
+        "City": "Saint Cloud",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1625,
+          45.5608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 88,
+        "City": "Saint Paul",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.0933,
+          44.9444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Sauk Rapids",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1661,
+          45.5919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Savage",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3363,
+          44.7791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Shakopee",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.5269,
+          44.798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "St. Peter",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.958,
+          44.3236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Stevens Point",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5745,
+          44.5235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Stewart",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4858,
+          44.7247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 5,
+        "City": "Stillwater",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.806,
+          45.0564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Superior",
+        "State": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1040,
+          46.7207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 3,
+        "City": "Two Harbors",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.6707,
+          47.0227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Vadnais Heights",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.0738,
+          45.0575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Wahpeton",
+        "State": "ND"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6059,
+          46.2652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Walker",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5872,
+          47.1013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Waseca",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.5074,
+          44.0777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 3,
+        "City": "West Fargo",
+        "State": "ND"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8999,
+          46.8769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "West Saint Paul",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.1016,
+          44.9161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Winona",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.6393,
+          44.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 2,
+        "City": "Woodbury",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9594,
+          44.9239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NumSum": 1,
+        "City": "Worthington",
+        "State": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5964,
+          43.62
+        ]
+      }
+    }
+  ]
+}
