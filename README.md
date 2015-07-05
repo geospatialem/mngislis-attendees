@@ -11,7 +11,9 @@ This repository contains [Minnesota GIS/LIS Consortium](http://www.mngislis.org)
 4. **2009 Attendees** *(attendees2009.json)*: Conference attendees, compiled by city, that attended the annual conference Oct. 21st-23rd, 2009 in Duluth, Minnesota.
 
 5. **2010 Attendees** *(attendees2010.json)*: Conference attendees, compiled by city, that attended the annual conference Oct. 13th-15th, 2010 in Duluth, Minnesota.
+
+6. **2011 Attendees** *(attendees2011.json)*: Conference attendees, compiled by city, that attended the annual conference Oct. 5th-7th, 2011 in Saint Cloud, Minnesota.
   
 ## Coming Soon
-- 2011, 2013, and 2014 annual attendee lists (Note: 2012 data is unavailable).    
+- 2013 and 2014 annual attendee lists (Note: 2012 data is unavailable).    
 - An interactive map displaying the attendee lists, by city.
