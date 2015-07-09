@@ -116,16 +116,23 @@ var baseLayers = {
 };
 
 //Legend control: Overlay Layers
-var overlays = {
-	"All years": allAttendees,
-	"2014": attendees2014,
-	"2013": attendees2013,
-	"2011": attendees2011,
-	"2010": attendees2010,
-	"2009": attendees2009,
-	"2008": attendees2008,
-	"2007": attendees2007
+var groupedOverlays = {
+	"Attendees": {
+		"All years": allAttendees,
+		"2014": attendees2014,
+		"2013": attendees2013,
+		"2011": attendees2011,
+		"2010": attendees2010,
+		"2009": attendees2009,
+		"2008": attendees2008,
+		"2007": attendees2007
+	}
 };
 
-//Add the legend control to the map
-L.control.layers(baseLayers, overlays).addTo(map);
+// Make the "Attendees" group exclusive (radio inputs)
+var options = {
+		exclusiveGroups: ["Attendees"]
+};
+
+//Add the layer control to the map
+var layerControl = L.control.groupedLayers(baseLayers, groupedOverlays, options).addTo(map);
