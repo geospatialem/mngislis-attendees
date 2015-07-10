@@ -6,6 +6,8 @@ Due to database constraints, 2012 data is omitted below but may be added at a la
 
 No private information is stored in the datasets and it was determined no person could be individually identified in showcasing attendees by city.
 
+## Interactive Map
+Check out the [interactive map](http://geospatialem.github.io/mngislis-attendees) displaying the attendee lists, by city.
 
 ## About the Data
 The geojson files contain three fields including:   
@@ -32,6 +34,3 @@ Using the `NumSum` field each geojson files breaks down the number of attendees 
 7. **2013 Attendees** *(attendees2013.json)*: Conference attendees, compiled by city, that attended the annual conference Oct. 9th-11th, 2013 in Rochester, Minnesota.
 
 8. **2014 Attendees** *(attendees2014.json)*: Conference attendees, compiled by city, that attended the annual conference Oct. 1st-3rd, 2014 in Rochester, Minnesota.
-  
-## Coming Soon  
-An interactive map displaying the attendee lists, by city.
