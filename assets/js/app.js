@@ -129,10 +129,20 @@ var groupedOverlays = {
 	}
 };
 
+/* Larger screens get expanded layer control and visible sidebar */
+if (document.body.clientWidth <= 767) {
+  var isCollapsed = true;
+} else {
+  var isCollapsed = false;
+}
+
 // Make the "Attendees" group exclusive (radio inputs)
 var options = {
-		exclusiveGroups: ["Attendees"]
+		exclusiveGroups: ["Attendees"],
+		collapsed: isCollapsed 
 };
 
 //Add the layer control to the map
-var layerControl = L.control.groupedLayers(baseLayers, groupedOverlays, options).addTo(map);
+var layerControl = L.control.groupedLayers(baseLayers, groupedOverlays, options, {
+	  collapsed: isCollapsed
+	}).addTo(map);
