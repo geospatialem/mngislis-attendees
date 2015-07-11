@@ -25,7 +25,7 @@ var attendeeMarker = L.AwesomeMarkers.icon({
 
 
 
-//All Attendees from 2007-2011 and 2013-2014 TODO: Add style
+//All Attendees from 2007-2011 and 2013-2014
 var allAttendees = L.geoJson(null, {
 	pointToLayer: function (feature, latlng) {
 	    return L.marker(latlng, {
@@ -35,14 +35,20 @@ var allAttendees = L.geoJson(null, {
 	    });
 	  },
 	onEachFeature: function (feature, layer) {
-		  layer.bindPopup(feature.properties.City + ", " + feature.properties.State + "<br />" + feature.properties.NumSum);
+		var html = '';
+	    html += '<h3> Total Attendees </h3>';
+		html += '<p>' + feature.properties.City + '</p>';
+		html += '<p>' + feature.properties.State + '</p>';
+	      html += '<p>' + feature.properties.NumSum + '</p>';
+	    html += '<div class="put"></div>';
+	    layer.bindPopup(html);
 	}
 });
 $.getJSON("data/allAttendees.json", function (data) {
 	  allAttendees.addData(data);
 });
 
-//2014 Attendees TODO: Add style
+//2014 Attendees
 var attendees2014 = L.geoJson(null, {
 	pointToLayer: function (feature, latlng) {
 	    return L.marker(latlng, {
@@ -52,14 +58,20 @@ var attendees2014 = L.geoJson(null, {
 	    });
 	  },
 	onEachFeature: function (feature, layer) {
-		  layer.bindPopup(feature.properties.City + ", " + feature.properties.State + "<br />" + feature.properties.NumSum);
+		var html = '';
+	    html += '<h3> 2014 Attendees </h3>';
+		html += '<p>' + feature.properties.City + '</p>';
+		html += '<p>' + feature.properties.State + '</p>';
+	      html += '<p>' + feature.properties.NumSum + '</p>';
+	    html += '<div class="put"></div>';
+	    layer.bindPopup(html);
 	}
 });
 $.getJSON("data/attendees2014.json", function (data) {
 	  attendees2014.addData(data);
 });
 
-//2013 Attendees TODO: Add style
+//2013 Attendees
 var attendees2013 = L.geoJson(null, {
 	pointToLayer: function (feature, latlng) {
 	    return L.marker(latlng, {
@@ -69,14 +81,20 @@ var attendees2013 = L.geoJson(null, {
 	    });
 	  },
 	onEachFeature: function (feature, layer) {
-		  layer.bindPopup(feature.properties.City + ", " + feature.properties.State + "<br />" + feature.properties.NumSum);
+		var html = '';
+	    html += '<h3> 2013 Attendees </h3>';
+		html += '<p>' + feature.properties.City + '</p>';
+		html += '<p>' + feature.properties.State + '</p>';
+	      html += '<p>' + feature.properties.NumSum + '</p>';
+	    html += '<div class="put"></div>';
+	    layer.bindPopup(html);
 	}
 });
 $.getJSON("data/attendees2013.json", function (data) {
 	  attendees2013.addData(data);
 });
 
-//2011 Attendees TODO: Add style
+//2011 Attendees
 var attendees2011 = L.geoJson(null, {
 	pointToLayer: function (feature, latlng) {
 	    return L.marker(latlng, {
@@ -86,14 +104,20 @@ var attendees2011 = L.geoJson(null, {
 	    });
 	  },
 	onEachFeature: function (feature, layer) {
-		  layer.bindPopup(feature.properties.City + ", " + feature.properties.State + "<br />" + feature.properties.NumSum);
+		var html = '';
+	    html += '<h3> 2011 Attendees </h3>';
+		html += '<p>' + feature.properties.City + '</p>';
+		html += '<p>' + feature.properties.State + '</p>';
+	      html += '<p>' + feature.properties.NumSum + '</p>';
+	    html += '<div class="put"></div>';
+	    layer.bindPopup(html);
 	}
 });
 $.getJSON("data/attendees2011.json", function (data) {
 	  attendees2011.addData(data);
 });
 
-//2010 Attendees TODO: Add style
+//2010 Attendees
 var attendees2010 = L.geoJson(null, {
 	pointToLayer: function (feature, latlng) {
 	    return L.marker(latlng, {
@@ -103,7 +127,13 @@ var attendees2010 = L.geoJson(null, {
 	    });
 	  },
 	onEachFeature: function (feature, layer) {
-		  layer.bindPopup(feature.properties.City + ", " + feature.properties.State + "<br />" + feature.properties.NumSum);
+		var html = '';
+	    html += '<h3> 2010 Attendees </h3>';
+		html += '<p>' + feature.properties.City + '</p>';
+		html += '<p>' + feature.properties.State + '</p>';
+	      html += '<p>' + feature.properties.NumSum + '</p>';
+	    html += '<div class="put"></div>';
+	    layer.bindPopup(html);
 	}
 });
 $.getJSON("data/attendees2010.json", function (data) {
@@ -111,7 +141,7 @@ $.getJSON("data/attendees2010.json", function (data) {
 });
 
 
-//2009 Attendees TODO: Add style
+//2009 Attendees
 var attendees2009 = L.geoJson(null, {
 	pointToLayer: function (feature, latlng) {
 	    return L.marker(latlng, {
@@ -121,14 +151,20 @@ var attendees2009 = L.geoJson(null, {
 	    });
 	  },
 	onEachFeature: function (feature, layer) {
-		  layer.bindPopup(feature.properties.City + ", " + feature.properties.State + "<br />" + feature.properties.NumSum);
+		var html = '';
+	    html += '<h3> 2009 Attendees </h3>';
+		html += '<p>' + feature.properties.City + '</p>';
+		html += '<p>' + feature.properties.State + '</p>';
+	      html += '<p>' + feature.properties.NumSum + '</p>';
+	    html += '<div class="put"></div>';
+	    layer.bindPopup(html);
 	}
 });
 $.getJSON("data/attendees2009.json", function (data) {
 	  attendees2009.addData(data);
 });
 
-//2008 Attendees TODO: Add style
+//2008 Attendees
 var attendees2008 = L.geoJson(null, {
 	pointToLayer: function (feature, latlng) {
 	    return L.marker(latlng, {
@@ -138,14 +174,20 @@ var attendees2008 = L.geoJson(null, {
 	    });
 	  },
 	onEachFeature: function (feature, layer) {
-		  layer.bindPopup(feature.properties.City + ", " + feature.properties.State + "<br />" + feature.properties.NumSum);
+		var html = '';
+	    html += '<h3> 2008 Attendees </h3>';
+		html += '<p>' + feature.properties.City + '</p>';
+		html += '<p>' + feature.properties.State + '</p>';
+	      html += '<p>' + feature.properties.NumSum + '</p>';
+	    html += '<div class="put"></div>';
+	    layer.bindPopup(html);
 	}
 });
 $.getJSON("data/attendees2008.json", function (data) {
 	  attendees2008.addData(data);
 });
 
-//2007 Attendees TODO: Add style
+//2007 Attendees
 var attendees2007 = L.geoJson(null, {
 	pointToLayer: function (feature, latlng) {
 	    return L.marker(latlng, {
@@ -155,7 +197,13 @@ var attendees2007 = L.geoJson(null, {
 	    });
 	  },
 	onEachFeature: function (feature, layer) {
-		  layer.bindPopup(feature.properties.City + ", " + feature.properties.State + "<br />" + feature.properties.NumSum);
+		var html = '';
+	    html += '<h3> 2007 Attendees </h3>';
+		html += '<p>' + feature.properties.City + '</p>';
+		html += '<p>' + feature.properties.State + '</p>';
+	      html += '<p>' + feature.properties.NumSum + '</p>';
+	    html += '<div class="put"></div>';
+	    layer.bindPopup(html);
 	}
 });
 $.getJSON("data/attendees2007.json", function (data) {
