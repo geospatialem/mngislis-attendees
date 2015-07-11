@@ -10,9 +10,30 @@ var gray = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/Canv
 	maxZoom: 16
 });
 
+//Icon Classes
+var starMarker = L.AwesomeMarkers.icon({
+	icon: 'star', 
+	prefix: 'fa', 
+	markerColor: 'darkred', 
+});
+
+var attendeeMarker = L.AwesomeMarkers.icon({
+	icon: 'user', 
+	prefix: 'fa', 
+	markerColor: 'darkblue', 
+});
+
+
 
 //All Attendees from 2007-2011 and 2013-2014 TODO: Add style
 var allAttendees = L.geoJson(null, {
+	pointToLayer: function (feature, latlng) {
+	    return L.marker(latlng, {
+	    	icon: starMarker,
+	    	title: feature.properties.City + ", " + feature.properties.State,
+	    	riseOnHover: true
+	    });
+	  },
 	onEachFeature: function (feature, layer) {
 		  layer.bindPopup(feature.properties.City + ", " + feature.properties.State + "<br />" + feature.properties.NumSum);
 	}
@@ -23,6 +44,13 @@ $.getJSON("data/allAttendees.json", function (data) {
 
 //2014 Attendees TODO: Add style
 var attendees2014 = L.geoJson(null, {
+	pointToLayer: function (feature, latlng) {
+	    return L.marker(latlng, {
+	    	icon: attendeeMarker,
+	    	title: feature.properties.City + ", " + feature.properties.State,
+	    	riseOnHover: true
+	    });
+	  },
 	onEachFeature: function (feature, layer) {
 		  layer.bindPopup(feature.properties.City + ", " + feature.properties.State + "<br />" + feature.properties.NumSum);
 	}
@@ -33,6 +61,13 @@ $.getJSON("data/attendees2014.json", function (data) {
 
 //2013 Attendees TODO: Add style
 var attendees2013 = L.geoJson(null, {
+	pointToLayer: function (feature, latlng) {
+	    return L.marker(latlng, {
+	    	icon: attendeeMarker,
+	    	title: feature.properties.City + ", " + feature.properties.State,
+	    	riseOnHover: true
+	    });
+	  },
 	onEachFeature: function (feature, layer) {
 		  layer.bindPopup(feature.properties.City + ", " + feature.properties.State + "<br />" + feature.properties.NumSum);
 	}
@@ -43,6 +78,13 @@ $.getJSON("data/attendees2013.json", function (data) {
 
 //2011 Attendees TODO: Add style
 var attendees2011 = L.geoJson(null, {
+	pointToLayer: function (feature, latlng) {
+	    return L.marker(latlng, {
+	    	icon: attendeeMarker,
+	    	title: feature.properties.City + ", " + feature.properties.State,
+	    	riseOnHover: true
+	    });
+	  },
 	onEachFeature: function (feature, layer) {
 		  layer.bindPopup(feature.properties.City + ", " + feature.properties.State + "<br />" + feature.properties.NumSum);
 	}
@@ -53,6 +95,13 @@ $.getJSON("data/attendees2011.json", function (data) {
 
 //2010 Attendees TODO: Add style
 var attendees2010 = L.geoJson(null, {
+	pointToLayer: function (feature, latlng) {
+	    return L.marker(latlng, {
+	    	icon: attendeeMarker,
+	    	title: feature.properties.City + ", " + feature.properties.State,
+	    	riseOnHover: true
+	    });
+	  },
 	onEachFeature: function (feature, layer) {
 		  layer.bindPopup(feature.properties.City + ", " + feature.properties.State + "<br />" + feature.properties.NumSum);
 	}
@@ -64,6 +113,13 @@ $.getJSON("data/attendees2010.json", function (data) {
 
 //2009 Attendees TODO: Add style
 var attendees2009 = L.geoJson(null, {
+	pointToLayer: function (feature, latlng) {
+	    return L.marker(latlng, {
+	    	icon: attendeeMarker,
+	    	title: feature.properties.City + ", " + feature.properties.State,
+	    	riseOnHover: true
+	    });
+	  },
 	onEachFeature: function (feature, layer) {
 		  layer.bindPopup(feature.properties.City + ", " + feature.properties.State + "<br />" + feature.properties.NumSum);
 	}
@@ -74,6 +130,13 @@ $.getJSON("data/attendees2009.json", function (data) {
 
 //2008 Attendees TODO: Add style
 var attendees2008 = L.geoJson(null, {
+	pointToLayer: function (feature, latlng) {
+	    return L.marker(latlng, {
+	    	icon: attendeeMarker,
+	    	title: feature.properties.City + ", " + feature.properties.State,
+	    	riseOnHover: true
+	    });
+	  },
 	onEachFeature: function (feature, layer) {
 		  layer.bindPopup(feature.properties.City + ", " + feature.properties.State + "<br />" + feature.properties.NumSum);
 	}
@@ -84,6 +147,13 @@ $.getJSON("data/attendees2008.json", function (data) {
 
 //2007 Attendees TODO: Add style
 var attendees2007 = L.geoJson(null, {
+	pointToLayer: function (feature, latlng) {
+	    return L.marker(latlng, {
+	    	icon: attendeeMarker,
+	    	title: feature.properties.City + ", " + feature.properties.State,
+	    	riseOnHover: true
+	    });
+	  },
 	onEachFeature: function (feature, layer) {
 		  layer.bindPopup(feature.properties.City + ", " + feature.properties.State + "<br />" + feature.properties.NumSum);
 	}
