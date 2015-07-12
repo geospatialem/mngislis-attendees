@@ -44,7 +44,7 @@ var allAttendees = L.geoJson(null, {
 	      "<tr><th>Total Attendees</th><td>" + feature.properties.NumSum + "*</td></tr>" + "<table>";      
 	      layer.on({
 	        click: function (e) {
-	          $("#feature-title").html('Total Attendees: 2007-2014');
+	          $("#feature-title").html('Total Attendees, 2007-2014');
 	          $("#feature-info").html(content);
 	          $("#featureModal").modal("show");
 	        }
@@ -74,7 +74,7 @@ var attendees2014 = L.geoJson(null, {
 		  "<tr><th>2014 Attendees</th><td>" + feature.properties.NumSum + "</td></tr>" + "<table>";      
 		  layer.on({
 		    click: function (e) {
-		      $("#feature-title").html('2014 Attendees (Rochester)');
+		      $("#feature-title").html('2014 Attendees, Rochester');
 		      $("#feature-info").html(content);
 		      $("#featureModal").modal("show");
 		    }
@@ -104,7 +104,7 @@ var attendees2013 = L.geoJson(null, {
 	      "<tr><th>2013 Attendees</th><td>" + feature.properties.NumSum + "</td></tr>" + "<table>";      
 	      layer.on({
 	        click: function (e) {
-	          $("#feature-title").html('2013 Attendees (Rochester)');
+	          $("#feature-title").html('2013 Attendees, Rochester');
 	          $("#feature-info").html(content);
 	          $("#featureModal").modal("show");
 	        }
@@ -134,7 +134,7 @@ var attendees2011 = L.geoJson(null, {
 	      "<tr><th>2011 Attendees</th><td>" + feature.properties.NumSum + "</td></tr>" + "<table>";      
 	      layer.on({
 	        click: function (e) {
-	          $("#feature-title").html('2011 Attendees (Saint Cloud)');
+	          $("#feature-title").html('2011 Attendees, Saint Cloud');
 	          $("#feature-info").html(content);
 	          $("#featureModal").modal("show");
 	        }
@@ -164,7 +164,7 @@ var attendees2010 = L.geoJson(null, {
 	      "<tr><th>2010 Attendees</th><td>" + feature.properties.NumSum + "</td></tr>" + "<table>";      
 	      layer.on({
 	        click: function (e) {
-	          $("#feature-title").html('2010 Attendees (Duluth)');
+	          $("#feature-title").html('2010 Attendees, Duluth');
 	          $("#feature-info").html(content);
 	          $("#featureModal").modal("show");
 	        }
@@ -195,7 +195,7 @@ var attendees2009 = L.geoJson(null, {
 		  "<tr><th>2009 Attendees</th><td>" + feature.properties.NumSum + "</td></tr>" + "<table>";      
 		  layer.on({
 		    click: function (e) {
-		      $("#feature-title").html('2009 Attendees (Duluth)');
+		      $("#feature-title").html('2009 Attendees, Duluth');
 		      $("#feature-info").html(content);
 		      $("#featureModal").modal("show");
 		    }
@@ -225,7 +225,7 @@ var attendees2008 = L.geoJson(null, {
 	      "<tr><th>2008 Attendees</th><td>" + feature.properties.NumSum + "</td></tr>" + "<table>";      
 	      layer.on({
 	        click: function (e) {
-	          $("#feature-title").html('2008 Attendees (Rochester)');
+	          $("#feature-title").html('2008 Attendees, Rochester');
 	          $("#feature-info").html(content);
 	          $("#featureModal").modal("show");
 	        }
@@ -255,7 +255,7 @@ var attendees2007 = L.geoJson(null, {
 	      "<tr><th>2007 Attendees</th><td>" + feature.properties.NumSum + "</td></tr>" + "<table>";      
 	      layer.on({
 	        click: function (e) {
-	          $("#feature-title").html('2007 Attendees (Rochester)');
+	          $("#feature-title").html('2007 Attendees, Rochester');
 	          $("#feature-info").html(content);
 	          $("#featureModal").modal("show");
 	        }
@@ -295,13 +295,13 @@ var baseLayers = {
 var groupedOverlays = {
 	"Attendees": {
 		"All years": allAttendees,
-		"2014": attendees2014,
-		"2013": attendees2013,
-		"2011": attendees2011,
-		"2010": attendees2010,
-		"2009": attendees2009,
-		"2008": attendees2008,
-		"2007": attendees2007
+		"2014, Rochester": attendees2014,
+		"2013, Rochester": attendees2013,
+		"2011, Saint Cloud": attendees2011,
+		"2010, Duluth": attendees2010,
+		"2009, Duluth": attendees2009,
+		"2008, Rochester": attendees2008,
+		"2007, Rochester": attendees2007
 	}
 };
 
