@@ -18,3 +18,18 @@ html,body,#container {
 	border: 1px;
 	outline: 0; 
 }
+
+.modal-header { /* Feature Bootstrap Modal Header */
+	padding:9px 15px; 
+	border-bottom:1px solid #eee; 
+	background-color: #337AB7; 
+}
+
+.popover-title { /* Popover Modal Header */
+	background-color: #D0CFD4;
+	font-weight: bold;
+}
+
+input[type="radio"],input[type="checkbox"] { /* Legend Margin */
+	margin: 0;
+}

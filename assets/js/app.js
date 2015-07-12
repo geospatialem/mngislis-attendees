@@ -10,6 +10,10 @@ var gray = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/Canv
 	maxZoom: 16
 });
 
+//Bootstrap Tooltip Placement
+$('[data-toggle="tooltip"]').tooltip({'placement': 'bottom'});
+$('[data-toggle="popover"]').popover({trigger: 'hover','placement': 'right'});
+
 //Icon Classes
 var starMarker = L.AwesomeMarkers.icon({
 	icon: 'star', 
@@ -23,8 +27,6 @@ var attendeeMarker = L.AwesomeMarkers.icon({
 	markerColor: 'darkblue', 
 });
 
-
-
 //All Attendees from 2007-2011 and 2013-2014
 var allAttendees = L.geoJson(null, {
 	pointToLayer: function (feature, latlng) {
@@ -35,13 +37,20 @@ var allAttendees = L.geoJson(null, {
 	    });
 	  },
 	onEachFeature: function (feature, layer) {
-		var html = '';
-	    html += '<h3> Total Attendees </h3>';
-		html += '<p>' + feature.properties.City + '</p>';
-		html += '<p>' + feature.properties.State + '</p>';
-	      html += '<p>' + feature.properties.NumSum + '</p>';
-	    html += '<div class="put"></div>';
-	    layer.bindPopup(html);
+	    if (feature.properties) {
+	      var content = "<table class='table table-striped table-bordered table-condensed'>" + 
+	      "<tr><th>City</th><td>" + feature.properties.City + "</td></tr>" +
+	      "<tr><th>State</th><td>" + feature.properties.State + "</td></tr>" +
+	      "<tr><th>Total Attendees</th><td>" + feature.properties.NumSum + "*</td></tr>" + "<table>";      
+	      layer.on({
+	        click: function (e) {
+	          $("#feature-title").html('Total Attendees: 2007-2014');
+	          $("#feature-info").html(content);
+	          $("#featureModal").modal("show");
+	        }
+	      });
+	      $("#feature-list tbody").append('<tr class="feature-row" id="'+L.stamp(layer)+'"><td style="vertical-align: middle;"><span class="fa-stack"><i class="fa fa-square fa-stack-2x" style="color: #A03336;"></i><i class="fa fa-star fa-stack-1x" style="color: white;"></i></span></td><td class="feature-name">'+layer.feature.properties.NAME+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+	    }
 	}
 });
 $.getJSON("data/allAttendees.json", function (data) {
@@ -58,13 +67,20 @@ var attendees2014 = L.geoJson(null, {
 	    });
 	  },
 	onEachFeature: function (feature, layer) {
-		var html = '';
-	    html += '<h3> 2014 Attendees </h3>';
-		html += '<p>' + feature.properties.City + '</p>';
-		html += '<p>' + feature.properties.State + '</p>';
-	      html += '<p>' + feature.properties.NumSum + '</p>';
-	    html += '<div class="put"></div>';
-	    layer.bindPopup(html);
+		if (feature.properties) {
+		  var content = "<table class='table table-striped table-bordered table-condensed'>" + 
+		  "<tr><th>City</th><td>" + feature.properties.City + "</td></tr>" +
+		  "<tr><th>State</th><td>" + feature.properties.State + "</td></tr>" +
+		  "<tr><th>2014 Attendees</th><td>" + feature.properties.NumSum + "</td></tr>" + "<table>";      
+		  layer.on({
+		    click: function (e) {
+		      $("#feature-title").html('2014 Attendees (Rochester)');
+		      $("#feature-info").html(content);
+		      $("#featureModal").modal("show");
+		    }
+		  });
+		  $("#feature-list tbody").append('<tr class="feature-row" id="'+L.stamp(layer)+'"><td style="vertical-align: middle;"><span class="fa-stack"><i class="fa fa-square fa-stack-2x" style="color: #A03336;"></i><i class="fa fa-star fa-stack-1x" style="color: white;"></i></span></td><td class="feature-name">'+layer.feature.properties.NAME+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+		}
 	}
 });
 $.getJSON("data/attendees2014.json", function (data) {
@@ -81,13 +97,20 @@ var attendees2013 = L.geoJson(null, {
 	    });
 	  },
 	onEachFeature: function (feature, layer) {
-		var html = '';
-	    html += '<h3> 2013 Attendees </h3>';
-		html += '<p>' + feature.properties.City + '</p>';
-		html += '<p>' + feature.properties.State + '</p>';
-	      html += '<p>' + feature.properties.NumSum + '</p>';
-	    html += '<div class="put"></div>';
-	    layer.bindPopup(html);
+	    if (feature.properties) {
+	      var content = "<table class='table table-striped table-bordered table-condensed'>" + 
+	      "<tr><th>City</th><td>" + feature.properties.City + "</td></tr>" +
+	      "<tr><th>State</th><td>" + feature.properties.State + "</td></tr>" +
+	      "<tr><th>2013 Attendees</th><td>" + feature.properties.NumSum + "</td></tr>" + "<table>";      
+	      layer.on({
+	        click: function (e) {
+	          $("#feature-title").html('2013 Attendees (Rochester)');
+	          $("#feature-info").html(content);
+	          $("#featureModal").modal("show");
+	        }
+	      });
+	      $("#feature-list tbody").append('<tr class="feature-row" id="'+L.stamp(layer)+'"><td style="vertical-align: middle;"><span class="fa-stack"><i class="fa fa-square fa-stack-2x" style="color: #A03336;"></i><i class="fa fa-star fa-stack-1x" style="color: white;"></i></span></td><td class="feature-name">'+layer.feature.properties.NAME+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+	    }
 	}
 });
 $.getJSON("data/attendees2013.json", function (data) {
@@ -104,13 +127,20 @@ var attendees2011 = L.geoJson(null, {
 	    });
 	  },
 	onEachFeature: function (feature, layer) {
-		var html = '';
-	    html += '<h3> 2011 Attendees </h3>';
-		html += '<p>' + feature.properties.City + '</p>';
-		html += '<p>' + feature.properties.State + '</p>';
-	      html += '<p>' + feature.properties.NumSum + '</p>';
-	    html += '<div class="put"></div>';
-	    layer.bindPopup(html);
+	    if (feature.properties) {
+	      var content = "<table class='table table-striped table-bordered table-condensed'>" + 
+	      "<tr><th>City</th><td>" + feature.properties.City + "</td></tr>" +
+	      "<tr><th>State</th><td>" + feature.properties.State + "</td></tr>" +
+	      "<tr><th>2011 Attendees</th><td>" + feature.properties.NumSum + "</td></tr>" + "<table>";      
+	      layer.on({
+	        click: function (e) {
+	          $("#feature-title").html('2011 Attendees (Saint Cloud)');
+	          $("#feature-info").html(content);
+	          $("#featureModal").modal("show");
+	        }
+	      });
+	      $("#feature-list tbody").append('<tr class="feature-row" id="'+L.stamp(layer)+'"><td style="vertical-align: middle;"><span class="fa-stack"><i class="fa fa-square fa-stack-2x" style="color: #A03336;"></i><i class="fa fa-star fa-stack-1x" style="color: white;"></i></span></td><td class="feature-name">'+layer.feature.properties.NAME+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+	    }
 	}
 });
 $.getJSON("data/attendees2011.json", function (data) {
@@ -127,13 +157,20 @@ var attendees2010 = L.geoJson(null, {
 	    });
 	  },
 	onEachFeature: function (feature, layer) {
-		var html = '';
-	    html += '<h3> 2010 Attendees </h3>';
-		html += '<p>' + feature.properties.City + '</p>';
-		html += '<p>' + feature.properties.State + '</p>';
-	      html += '<p>' + feature.properties.NumSum + '</p>';
-	    html += '<div class="put"></div>';
-	    layer.bindPopup(html);
+	    if (feature.properties) {
+	      var content = "<table class='table table-striped table-bordered table-condensed'>" + 
+	      "<tr><th>City</th><td>" + feature.properties.City + "</td></tr>" +
+	      "<tr><th>State</th><td>" + feature.properties.State + "</td></tr>" +
+	      "<tr><th>2010 Attendees</th><td>" + feature.properties.NumSum + "</td></tr>" + "<table>";      
+	      layer.on({
+	        click: function (e) {
+	          $("#feature-title").html('2010 Attendees (Duluth)');
+	          $("#feature-info").html(content);
+	          $("#featureModal").modal("show");
+	        }
+	      });
+	      $("#feature-list tbody").append('<tr class="feature-row" id="'+L.stamp(layer)+'"><td style="vertical-align: middle;"><span class="fa-stack"><i class="fa fa-square fa-stack-2x" style="color: #A03336;"></i><i class="fa fa-star fa-stack-1x" style="color: white;"></i></span></td><td class="feature-name">'+layer.feature.properties.NAME+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+	    }
 	}
 });
 $.getJSON("data/attendees2010.json", function (data) {
@@ -151,13 +188,20 @@ var attendees2009 = L.geoJson(null, {
 	    });
 	  },
 	onEachFeature: function (feature, layer) {
-		var html = '';
-	    html += '<h3> 2009 Attendees </h3>';
-		html += '<p>' + feature.properties.City + '</p>';
-		html += '<p>' + feature.properties.State + '</p>';
-	      html += '<p>' + feature.properties.NumSum + '</p>';
-	    html += '<div class="put"></div>';
-	    layer.bindPopup(html);
+		if (feature.properties) {
+		  var content = "<table class='table table-striped table-bordered table-condensed'>" + 
+		  "<tr><th>City</th><td>" + feature.properties.City + "</td></tr>" +
+		  "<tr><th>State</th><td>" + feature.properties.State + "</td></tr>" +
+		  "<tr><th>2009 Attendees</th><td>" + feature.properties.NumSum + "</td></tr>" + "<table>";      
+		  layer.on({
+		    click: function (e) {
+		      $("#feature-title").html('2009 Attendees (Duluth)');
+		      $("#feature-info").html(content);
+		      $("#featureModal").modal("show");
+		    }
+		  });
+		  $("#feature-list tbody").append('<tr class="feature-row" id="'+L.stamp(layer)+'"><td style="vertical-align: middle;"><span class="fa-stack"><i class="fa fa-square fa-stack-2x" style="color: #A03336;"></i><i class="fa fa-star fa-stack-1x" style="color: white;"></i></span></td><td class="feature-name">'+layer.feature.properties.NAME+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+		}
 	}
 });
 $.getJSON("data/attendees2009.json", function (data) {
@@ -174,13 +218,20 @@ var attendees2008 = L.geoJson(null, {
 	    });
 	  },
 	onEachFeature: function (feature, layer) {
-		var html = '';
-	    html += '<h3> 2008 Attendees </h3>';
-		html += '<p>' + feature.properties.City + '</p>';
-		html += '<p>' + feature.properties.State + '</p>';
-	      html += '<p>' + feature.properties.NumSum + '</p>';
-	    html += '<div class="put"></div>';
-	    layer.bindPopup(html);
+	    if (feature.properties) {
+	      var content = "<table class='table table-striped table-bordered table-condensed'>" + 
+	      "<tr><th>City</th><td>" + feature.properties.City + "</td></tr>" +
+	      "<tr><th>State</th><td>" + feature.properties.State + "</td></tr>" +
+	      "<tr><th>2008 Attendees</th><td>" + feature.properties.NumSum + "</td></tr>" + "<table>";      
+	      layer.on({
+	        click: function (e) {
+	          $("#feature-title").html('2008 Attendees (Rochester)');
+	          $("#feature-info").html(content);
+	          $("#featureModal").modal("show");
+	        }
+	      });
+	      $("#feature-list tbody").append('<tr class="feature-row" id="'+L.stamp(layer)+'"><td style="vertical-align: middle;"><span class="fa-stack"><i class="fa fa-square fa-stack-2x" style="color: #A03336;"></i><i class="fa fa-star fa-stack-1x" style="color: white;"></i></span></td><td class="feature-name">'+layer.feature.properties.NAME+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+	    }
 	}
 });
 $.getJSON("data/attendees2008.json", function (data) {
@@ -197,13 +248,20 @@ var attendees2007 = L.geoJson(null, {
 	    });
 	  },
 	onEachFeature: function (feature, layer) {
-		var html = '';
-	    html += '<h3> 2007 Attendees </h3>';
-		html += '<p>' + feature.properties.City + '</p>';
-		html += '<p>' + feature.properties.State + '</p>';
-	      html += '<p>' + feature.properties.NumSum + '</p>';
-	    html += '<div class="put"></div>';
-	    layer.bindPopup(html);
+	    if (feature.properties) {
+	      var content = "<table class='table table-striped table-bordered table-condensed'>" + 
+	      "<tr><th>City</th><td>" + feature.properties.City + "</td></tr>" +
+	      "<tr><th>State</th><td>" + feature.properties.State + "</td></tr>" +
+	      "<tr><th>2007 Attendees</th><td>" + feature.properties.NumSum + "</td></tr>" + "<table>";      
+	      layer.on({
+	        click: function (e) {
+	          $("#feature-title").html('2007 Attendees (Rochester)');
+	          $("#feature-info").html(content);
+	          $("#featureModal").modal("show");
+	        }
+	      });
+	      $("#feature-list tbody").append('<tr class="feature-row" id="'+L.stamp(layer)+'"><td style="vertical-align: middle;"><span class="fa-stack"><i class="fa fa-square fa-stack-2x" style="color: #A03336;"></i><i class="fa fa-star fa-stack-1x" style="color: white;"></i></span></td><td class="feature-name">'+layer.feature.properties.NAME+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+	    }
 	}
 });
 $.getJSON("data/attendees2007.json", function (data) {

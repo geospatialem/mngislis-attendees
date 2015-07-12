@@ -7,10 +7,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
-	 <link rel="stylesheet" href="assets/Leaflet.groupedlayercontrol/leaflet.groupedlayercontrol.css" />
+	 <link rel="stylesheet" href="assets/Leaflet.groupedlayercontrol/leaflet.groupedlayercontrol.css">
 	 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	 <link rel="stylesheet" href="assets/css/leaflet.awesome-markers.css">
-	 <link rel="stylesheet" href="assets/css/app.css" />
+	 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	 <link rel="stylesheet" href="assets/css/app.css">
 	 
 </head>
 <body>
@@ -30,8 +31,30 @@
 	<div id="container">
 		<div id="map"></div>
 	</div>
+	
+	<!-- Feature Bootstrap Modal -->	
+	<div class="modal fade" id="featureModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title bg-primary" id="feature-title">Feature Title</h4>
+          </div>
+          <div class="modal-body" id="feature-info"></div>
+          <div class="modal-footer">
+         	<p style="text-align:left;">
+            	<a id="dataPopup" href="#" data-toggle="popover" title="Total Attendees" data-content='The Minnesota GIS/LIS Consortium does not have data for the 2012 annual conference held in Saint Cloud. As such, the 2012 data is not displayed in the total attendee numbers and/or map.'>* Total Attendees</a><br />        		      		  
+            <span style="float:right;">
+            	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </span>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+	
 
 	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
 	<script src="assets/Leaflet.groupedlayercontrol/leaflet.groupedlayercontrol.js"></script>
 	<script src="assets/js/leaflet.awesome-markers.min.js"></script>
