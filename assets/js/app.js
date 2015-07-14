@@ -267,6 +267,12 @@ var attendees2007 = L.geoJson(null, {
 $.getJSON("data/attendees2007.json", function (data) {
 	  attendees2007.addData(data);
 });
+
+//Define the map bounds constraint
+var southWest = L.latLng(27.045, -172.353),
+	northEast = L.latLng(71.675, -58.447),
+	bounds = L.latLngBounds(southWest, northEast);
+
 	
 //Define the map and its extent
 var map = L.map("map", {
@@ -279,11 +285,8 @@ var map = L.map("map", {
 	attributionControl: true
 });
 
-//Define the map bounds constraint
-//TODO: Define the bounds so users can't zoom out outside of the United States
-var southWest = L.latLng(-179.2968749, 71.7154415734),
-	northEast = L.latLng(178.9453145, -14.7608357),
-	bounds = L.latLngBounds(southWest, northEast);
+//zoom the map to that bounding box
+map.fitBounds(bounds);
 
 //Legend control: Basemap Layers
 var baseLayers = {
